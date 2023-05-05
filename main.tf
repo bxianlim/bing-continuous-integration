@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "bing-continuous-integration-05-may-2023"
+  bucket = "bing-continuous-integration"
   tags = {
     Environment = "Dev"
   }
